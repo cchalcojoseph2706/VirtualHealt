@@ -1,6 +1,3 @@
-/*
- *Form CSS
- */
 .form-all {
     list-style: none;
     list-style-position: outside;
@@ -9,7 +6,6 @@
     font-size: 12px;
 }
 
-/* if the user add  formm in app builder */
 
 .isEmbeddedInPortal body {
   margin: 0;
@@ -26,7 +22,6 @@
   border: none;
 }
 
-/* if the user add  formm in app builder end */
 
 .form-line .form-radio-item:not(#foo) .form-radio-other + label , .form-line .form-checkbox-item .form-checkbox-other + label { width: auto; }
 .form-line .form-radio-item .form-radio-other.form-textbox + label, .form-line .form-checkbox-item .form-checkbox-other.form-textbox + label { display: none !important;}

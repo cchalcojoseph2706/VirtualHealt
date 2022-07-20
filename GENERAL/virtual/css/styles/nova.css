@@ -11,7 +11,7 @@
 }
 
 .form-line {
-	/* Don't conver these into shorthand */
+
 	padding-top:12px;
 	padding-bottom:12px;
 	padding-left:36px;
@@ -38,8 +38,8 @@
 	padding: 3px;
 	margin-left: 0;
 	border: 1px solid #ccc;
-	font-size: 1em; /*14px*/
-	line-height: 1.071em; /*15px*/
+	font-size: 1em; 
+	line-height: 1.071em; 
 	-moz-box-shadow: 0 1px 2px #eee inset;
 	-webkit-box-shadw: 0 1px 2px #eee inset;
 	box-shadow: 0 1px 2px #eee inset;
@@ -48,7 +48,7 @@
 	padding: 3px;
 }
 
-/*  special for payment stripe - credit card details*/
+
 .stripe-payment-wrapper .form-textbox.cc_firstName,
 .stripe-payment-wrapper .form-textbox.cc_lastName {
 	color: #000 !important;
@@ -103,9 +103,7 @@
 	margin-top: 20px;
 }
 
-/*  E.O. special for payment stripe - credit card details*/
 
-/*  PAYMENT color */
 .dropdown-container .select-area,
 .dropdown-container .select-content {
 	border-color: #cccccc;
@@ -115,9 +113,7 @@
 	border-color: rgba(102,102,102, 0.2);
 }
 
-/*  E.O PAYMENT color */
 
-/*  Special for paypalcomplete - credit and details*/
 
 .paypalcomplete-payment-wrapper .form-textbox.cc_number,
 .paypalcomplete-payment-wrapper .form-textbox.cc_ccv,
@@ -135,7 +131,7 @@
 	width: 100%;
 }
 
-/*  E.O. special for paypalcomplete - credit and details*/
+
 
 .form-all .form-upload {
 	border:none;
@@ -143,13 +139,13 @@
 }
 
 .form-sub-label {
-	font-size:0.786em; /*11px*/
+	font-size:0.786em; 
 	margin-top:3px;
 }
 
 .form-dropdown {
 	padding: 2px;
-	font-size:0.857em;/*12px*/
+	font-size:0.857em;
 
 }
 
@@ -173,7 +169,7 @@
 .form-radio-item label,
 .form-checkbox-item label,
 .form-grading-label {
-	font-size:1em; /*14px*/
+	font-size:1em; 
 	color:#000;
 }
 .form-radio-item,
@@ -182,12 +178,11 @@
 	margin-bottom: 6px;
 }
 
-/* HEADING FIELD
-------------------------------*/
+
 
 .form-header-group {
-	background: transparent; /* For overriding */
-	border: none; /* For overriding */
+	background: transparent; 
+	border: none; 
 	padding: 24px 0;
 	margin: 12px 36px 18px;
 	border-bottom: 1px solid #e3e3e3;
@@ -200,15 +195,15 @@ li:first-child .form-header-group,
 }
 
 h1.form-header {
-	font-size: 2.143em; /*30px*/
+	font-size: 2.143em; 
 }
 
 h2.form-header {
-	font-size: 1.714em; /*24px*/
+	font-size: 1.714em; 
 }
 
 h3.form-header {
-	font-size: 1.5em; /*21px*/
+	font-size: 1.5em; 
 }
 
 .form-header{
@@ -216,16 +211,14 @@ h3.form-header {
 }
 .form-subHeader {
 	border-top:none;
-	font-size: 1.071em; /*15px*/
-	line-height:1.5em;  /*21px*/
+	font-size: 1.071em; 
+	line-height:1.5em;  
 	font-style: normal;
 	margin:3px 0 0;
 }
 
 
 
-/* BUTTONS
-------------------------------*/
 
 .jf-form-buttons,
 .qq-upload-button {
@@ -236,9 +229,9 @@ h3.form-header {
 	cursor:pointer;
 	border-radius: 3px;
 	box-shadow: 0px 1px 1px 0px rgba(221,221,221,1);
-	background: #f5f5f5; /* Old browsers */
+	background: #f5f5f5;
 	background: linear-gradient(to top, #f5f5f5 0%, #eeeeee 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 );
 }
 
 .jf-form-buttons:hover,
@@ -263,7 +256,7 @@ h3.form-header {
 .form-submit-reset,
 .form-submit-preview,
 .form-submit-print {
-	font-size:0.857em; /*12px*/
+	font-size:0.857em; 
 	padding:4px 8px;
 }
 
@@ -285,8 +278,7 @@ h3.form-header {
 }
 
 
-/* Phone areaCode & Phone Number in the payment field
-------------------------------*/
+
 li:not([data-type="control_phone"]) input[data-component="areaCode"] {
 	width: 30px;
 }
@@ -296,8 +288,6 @@ li:not([data-type="control_phone"]) input[data-component="phone"] {
 }
 
 
-/* FORM-LINE ACTIVE
-------------------------------*/
 
 
 .form-line-active {
@@ -310,8 +300,6 @@ li:not([data-type="control_phone"]) input[data-component="phone"] {
 	box-shadow: 0 0 3px #FFF0AA;
 }
 
-/* ERROR MESSAGES
-------------------------------*/
 
 .form-line-error {
 	background: #fff4f4;
@@ -342,10 +330,7 @@ li.form-line-error .form-error-message img {
 
 
 
-/* SURVEY TOOLS
-------------------------------*/
 
-/*----- Matrix Field -----*/
 
 .form-matrix-table {
 	font-size:1em;
@@ -353,7 +338,7 @@ li.form-line-error .form-error-message img {
 
 .form-matrix-row-headers,
 .form-matrix-column-headers {
-	font-size:0.786em; /*11px*/
+	font-size:0.786em; 
 	font-weight: normal;
 }
 
@@ -366,7 +351,6 @@ li.form-line-error .form-error-message img {
     margin-bottom: 6px;
 }
 
-/*----- Form Collapse -----*/
 
 .form-collapse-table {
 	margin: 0 36px;
@@ -374,9 +358,9 @@ li.form-line-error .form-error-message img {
 	cursor:pointer;
 	border-radius: 3px 3px;
 	box-shadow: 0 1px #fff inset, 0 1px #ddd;
-	background: #f5f5f5; /* Old browsers */
-	background: linear-gradient(top,  #f5f5f5 0%,#eeeeee 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+	background: #f5f5f5; 
+	background: linear-gradient(top,  #f5f5f5 0%,#eeeeee 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); 
 }
 
 .form-collapse-table:hover {
@@ -392,7 +376,7 @@ li.form-line-error .form-error-message img {
 	box-shadow: 0 1px #fff inset;
 }
 
-/*----- Page Break Field -----*/
+
 
 .form-pagebreak {
 	margin:0 36px;
@@ -415,8 +399,7 @@ li.form-line-error .form-error-message img {
 }
 
 
-/* PAYMENT FIELDS
-------------------------------*/
+
 
 .form-product-item {
 	padding:6px;
@@ -527,7 +510,7 @@ li.form-line-error .form-error-message img {
 	padding: 2px;
 }
 
-.form-product-details { font-size:0.857em; /*12px*/}
+.form-product-details { font-size:0.857em; }
 
 .form-payment-total b > span > span > span,
 .form-product-details b > span > span {
@@ -547,7 +530,7 @@ li.form-line-error .form-error-message img {
 .app .form-product-details {
 	margin-left: 5px;
 }
-/* Subscription */
+
 
 .form-product-item .form-radio,
 .form-product-item .form-checkbox {
@@ -555,20 +538,19 @@ li.form-line-error .form-error-message img {
 }
 
 
-/* SHRINK & TO NEW LINE
-------------------------------*/
+
 
 .form-line-column {
     clear: none;
     float: left;
     width: auto;
-    max-width: 100%; /*ie-11 fix*/
+    max-width: 100%; 
 }
 
 .form-line-column-clear {
 	clear:left;
 	width:auto;
-    max-width: 100%; /*ie-11 fix*/
+    max-width: 100%; 
 }
 
 .form-line[data-type="control_matrix"] { overflow-x: auto; }
@@ -576,19 +558,12 @@ li.form-line-error .form-error-message img {
 .form-line[data-type="control_matrix"] [class*="form-input"] { width:100%; }
 
 
-/*
-.p_checkbox, .p_image, .form-product-container { float: left; }
-.form-product-item { display: block; }
-*/
-
-/* ------------- */
-/* MEDIA QUERIES */
 
 @media screen and (max-width: 480px),
 screen and (max-device-width: 768px) and (orientation: portrait),
 screen and (max-device-width: 415px) and (orientation: landscape) {
 
-	/* User defined amount width */
+	
 	input[id*="_donation"] {
 		width: 25% !important;
 	}
@@ -614,7 +589,7 @@ screen and (max-device-width: 415px) and (orientation: landscape) {
 
 
 
-/* Payments: PayPal Commarce Platform */
+
 
 #paypal-commerce-platform-container {
 	overflow: hidden;
@@ -757,11 +732,7 @@ div[render-paypal-type="paypal-smart-buttons"] .content-area {
 	line-height: 24px;
 	box-shadow: none;
 	padding: 0 12px;
-	/*border-color: rgba(0, 0, 0, 0.04) !important;
-	background-color: rgba( 256, 256, 256, 0.8) !important;*/
-}
-
-/* --  MOLLIE CSS For Payment UI--*/
+	
 
 .mollie-payment-wrapper .mollie-apm {
 	width: 100%;
@@ -885,9 +856,8 @@ table.mollie-address tr th {
 	padding-left: 32px;
 }
 
-/* --  MOLLIE CSS For Payment UI--*/
 
-/* E.O. recommendation list */
+
 
 .paymentsettings .spanel_back_btn {
     position: absolute;
@@ -920,7 +890,7 @@ table.mollie-address tr th {
     opacity: 0.6;
 }
 
-/* Payment Settings Modal */
+
 
 .productConfirmationModal {
     position: absolute;
@@ -1024,7 +994,7 @@ table.mollie-address tr th {
     animation-fill-mode: both;
 }
 
-/* E.O. Payment Settings Modal */
+
 
 table.payment-form-table label.form-sub-label {
 	padding-top: 3px;
@@ -1075,7 +1045,7 @@ div[render-paypal-type="paypal-smart-buttons"] .content-area { margin: 0 auto; }
 	display: block;
 }
 
-/* stock features fields */
+
 
 .form-line[data-payment="true"] .form-product-item.sold_out_product img,
 .form-line[data-payment="true"] .form-product-item.sold_out_product input[type="checkbox"],
@@ -1270,7 +1240,7 @@ div[render-paypal-type="paypal-smart-buttons"] .content-area { margin: 0 auto; }
     border-color: transparent !important;
 }
 
-/* E.O. stock features fields */
+
 
 @media screen and (max-width: 480px),
 screen and (max-device-width: 768px) and (orientation: portrait),
@@ -1318,9 +1288,7 @@ screen and (max-device-width: 415px) and (orientation: landscape) {
 }
 
 
-/* E.O Payments: PayPal Commarce Platform */
 
-/* Payments: Square CC field */
 .form-address-table.payment-form-table.square-cc-field input {
 	border: 1px solid #b8bdc9;
 	height: 36px;
@@ -1357,9 +1325,7 @@ screen and (max-device-width: 415px) and (orientation: landscape) {
 		margin: 0;
 	}
 }
-/* E.O Payments: Square CC field */
 
-/* Cash App Modal */
 #cashAppModal .overlay-content {
     max-width: 720px;
     height: auto;
@@ -1573,9 +1539,7 @@ screen and (max-device-width: 415px) and (orientation: landscape) {
     margin-right: 12px;
     border-radius: 6px
 }
-/* E.O. Cash App Modal */
 
-/* Disable campaign for form footers */
-/* DONT TOUCH IT */ 
+
 .formFooter.summer-sale-2020 { display: none !important; } 
-/* DONT TOUCH IT */
+
