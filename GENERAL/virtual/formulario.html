@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulatio.css">
+    <title>Formulario de Citas</title>
+</head>
+<body>
+    <nav>
+        <section class="contenedor nav">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="enlaces-header">
+                <a href="index.html">Inicio</a>
+                <a href="Formulario_de_citas_médicas.html">Citas</a>
+                <a href="login.html">iniciar secion</a> 
+            </div>
+            <div class="hamburguer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </section>
+    </nav>
+    <img id="doc" src="doctor.webp">
+    <p id="CitaMedica">Cita medica</p>
+    <p id="NameDoc">joseph Chalco</p>
+    <p id="Especialidad">Pediatria</p>
+    <hr id="bajoImg">
+    <h2 id="Datos">Datos del paciente</h2>
+    <hr id="bajoImg2">
+    <p id="namep"><strong> Nombre y apellidos del paciente</strong></p>
+    <input type="text" name="nombre" id="nombre" min="15" max="100" class="formulario" placeholder="Nombre completo" required/>
+    <p id="correo"><strong>Correo electronico</strong></p>
+    <input type="email" name="email" id="email" class="formulario" placeholder="ejemplo1@gmail.com" required/>
+    <p id="direccion"><strong>Dirección</strong></p>
+    <input type="text" name="direccion" id="direccion1" class="formulario" placeholder="Dirección calle principal" required/>
+    <input type="text" name="direccion2" id="direccion2" class="formulario" placeholder="Dirección calle secundaria" required/>
+    <input type="text" name="ciudadd" id="direccion3" class="formulario" placeholder="Ciudad" required/>
+    <input type="text" name="provincia" id="direccion4" class="formulario" placeholder="Estado/Provincia" required/>
+    <p id="cell"><strong>Número de telefono</strong></p>
+    <input type="tel" name="telefono" id="num" min="10" max="10" class="formulario" placeholder="Número de telefono: 09XXXX" required/>
+    <hr id="bajoImg3">
+</body>
+</html>

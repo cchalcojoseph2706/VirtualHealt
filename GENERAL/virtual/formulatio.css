@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppings", sans-serif;
+
+  }
+
+body {
+    height: 1000px;
+}
+
+#doc {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 340px;
+    display: flex;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contenedor1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+
+/* Header */
+header::before {
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: rgb(2, 2, 2);
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: ease-in-out 0.5s;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav .logo {
+    height: 80px;
+
+}
+
+.nav .logo img {
+    height: 100%;
+    vertical-align: top;
+}
+
+.enlaces-header {
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+
+.nav .enlaces-header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#CitaMedica {
+    text-align: center;
+    margin-top: -250px;
+    font-size: 25px;
+
+}
+
+#NameDoc {
+    text-align: center;
+    font-size:20px;
+}
+
+#Especialidad  {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#bajoImg {
+margin-top: 200px;
+width: 700px;
+display: flex;
+margin-left:350px;
+}
+
+#bajoImg2 {
+    margin-top: 2px;
+    width: 700px;
+    display: flex;
+    margin-left:350px;
+    }
+
+#Datos{
+    text-align: center;
+    padding: 20px;
+}
+
+#namep {
+    margin-left: 370px;
+    padding: 10px;
+}
+
+#nombre {
+    margin-left: 380px;
+    padding: 10px;
+    width: 400px;
+}
+
+#correo {
+    margin-left: 370px;
+    padding: 10px;
+}
+
+#email {
+    margin-left: 380px;
+    padding: 10px;
+    width: 400px;
+}
+
+#direccion {
+    margin-left: 370px;
+    padding: 10px;
+}
+
+#direccion1 {
+    margin-left: 380px;
+    padding: 10px;
+}
+
+#direccion2 {
+    margin-left: 250px;
+    padding: 10px;
+}
+
+#direccion3 {
+    margin-left: 380px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#direccion4 {
+    margin-left: 250px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#cell {
+    margin-left: 370px;
+    padding: 10px;
+}
+
+#num {
+    margin-left: 380px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bajoImg3 {
+    margin-top: 50px;
+    width: 700px;
+    display: flex;
+    margin-left:350px;
+}
