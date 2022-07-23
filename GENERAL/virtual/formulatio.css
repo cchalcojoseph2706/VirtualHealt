@@ -192,3 +192,19 @@ margin-left:350px;
     display: flex;
     margin-left:350px;
 }
+
+.formulario {
+    border-radius: 50px;    
+
+}
+
+.formulario:hover{
+    width: 200px;
+    background-color: rgba(2, 2, 2, 0.164);
+    color: white;
+    transform: translateY(5px);
+    transition: transform 0.8s ease-out;
+    margin-right: 10px;
+    box-shadow: 5px 5px 0 rgb(79, 176, 255);
+}
+
