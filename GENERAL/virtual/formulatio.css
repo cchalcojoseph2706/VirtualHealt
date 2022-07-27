@@ -6,7 +6,7 @@
   }
 
 body {
-    height: 1000px;
+    height: 3000px;
 }
 
 #doc {
@@ -208,3 +208,37 @@ margin-left:350px;
     box-shadow: 5px 5px 0 rgb(79, 176, 255);
 }
 
+#calendario {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 340px;
+    display: flex;
+}
+
+#horario {
+    text-align: right;
+    margin-top: -200px;
+    margin-right: 375px;
+}
+
+#atencion {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 430px;
+}
+
+#calendar {
+    display: flex;
+    width: 214px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 730px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.973);
+    border-radius: 50px;
+}
+
+#calendar:hover {
+    background-color: rgba(2, 2, 2, 0.164);
+}
