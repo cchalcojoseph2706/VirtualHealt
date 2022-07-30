@@ -19,12 +19,15 @@
         <nav>
             <section class="contenedor nav">
                 <div class="logo">
-                    <img src="logo.png" alt="">
+                    <a href="index.html">
+                        <img src="multimedia/logo.png" alt="">
+                    </a>
                 </div>
                 <div class="enlaces-header">
                     <a href="index.html">Inicio</a>
                     <a href="formulario.html">Citas</a>
                     <a href="login.html">iniciar sesión</a> 
+                    <a id="logout">Cerrar sesión</a> 
                 </div>
                 <div class="hamburguer">
                     <i class="fas fa-bars"></i>
@@ -164,9 +167,38 @@
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/96bg_wGDzEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </footer>-->
+
+    <!--<script src="loginJS.js"></script>
+        
+        <script src="main.js"></script> -->
+
+
+    
+
+    <script>
+
+        var us = JSON.parse(localStorage.getItem("login"));
+        
+         console.log(us);
+         if( !us ){
+
+            window.location.href = "http://127.0.0.1:5500/GENERAL/virtual/login.html"
+            
+        }
+        
+        logout.addEventListener( "click", () => {
+            
+            localStorage.removeItem("login");
+            window.location.href = "http://127.0.0.1:5500/GENERAL/virtual/login.html"
+          })
+         
+        
+    </script>
+    
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
-</body>
 
+</body>
 </html>
